@@ -6,6 +6,10 @@ android {
     namespace = "com.example.managementapp"
     compileSdk {
         version = release(37)
+
+        buildFeatures{
+            viewBinding = true
+        }
     }
 
     defaultConfig {
